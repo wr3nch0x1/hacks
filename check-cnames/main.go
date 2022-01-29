@@ -74,7 +74,7 @@ func main() {
 
 				cname, err := getCNAME(j.domain, j.server)
 				if err != nil {
-					//fmt.Println(err)
+					fmt.Println(err)
 					continue
 				}
 
